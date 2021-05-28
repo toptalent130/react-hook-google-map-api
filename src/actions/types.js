@@ -1,0 +1,2 @@
+export const GET_FIRSTPAGE_DATA = "GET_FIRSTPAGE_DATA";
+export const GET_ERROR = "GET_ERROR";

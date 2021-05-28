@@ -1,0 +1,50 @@
+{
+  "location": [
+    {
+      "zipcode": "07000",
+      "vol_searches": 1.0,
+      "vol_leads": 100.0,
+      "val_commercial_offer": 0.0,
+      "vol_warehouse_sell": 100.0,
+      "vol_edifice_sell": 97.0,
+      "vol_local_sell": 1000.0,
+      "vol_office_sell": 1.0,
+      "vol_cafeterias": 1.0,
+      "vol_discotheque": 1.0,
+      "vol_restaurants": 1.0,
+      "vol_warehouse_rent": 200.0,
+      "vol_edifice_rent": 300.0,
+      "vol_local_rent": 1.0,
+      "vol_industrial_ship_rent": 1.0,
+      "vol_office_rent": 1000.0,
+      "vol_schools": 10.0,
+      "vol_parks": 0.0
+      }
+  ],
+  "valuation": [
+    {
+      "vector": 
+      {
+        "age": 0,
+        "bathrooms": 3.0,
+        "size_house": 100.0,
+        "size_ground": 90.0,
+        "zipcode": "20126",
+        "air_conditioning": 0.0,
+        "gardens": 0.0,
+        "pool": 0.0,
+        "gym": 0.0,
+        "parking_num": null,
+        "bedrooms": 4.0,
+        "terrace": 0.0,
+        "service_room": 0.0,
+        "floor": 2.0,
+        "private_security": 0.0,
+        "type_children": 2,
+        "amenidades": 0.0
+      },
+      "price": 12345678,
+      "price_per_meter": 1234.5
+    }
+  ]
+}

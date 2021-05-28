@@ -1,13 +1,9 @@
-import characterReducer from './characterReducer';
-import counterReducer from './counterReducer';
-import todoReducer from './todoReducer';
+import firstReducer from './firstReducer';
 import {combineReducers} from 'redux';
 
 //Combine all the sub reducers
 const rootReducer = combineReducers({
-    characters: characterReducer,
-    myCounter: counterReducer,
-    todos:todoReducer
+    first: firstReducer,
 })
 
 export default rootReducer

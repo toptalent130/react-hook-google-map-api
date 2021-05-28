@@ -1,29 +1,18 @@
 import React from 'react';
-import SimpleCounter from './views/SimpleCounter';
-import TodoList from './views/TodoList';
-import NameCard from './views/NameCard';
+import { Route } from "react-router-dom";
+import FirstPage from './pages/firstPage';
+import SecondPage from './pages/secondPage';
+import ThirdPage from './pages/thirdPage';
 
 function App() {
-
-    return (
-        <div className="App">
-            <main className="container">
-
-                {/* Please check /views/SimpleCounter.js for detail*/}
-                <SimpleCounter/>
-
-                <div className="divider"></div>
-
-                {/* Please check /views/NameCard.js for detail*/}
-                <NameCard/>
-
-                <div className="divider"></div>
-
-                {/* Please check /views/TodoList.js for detail*/}
-                <TodoList/>
-            </main>
-        </div>
-    );
+  return (
+      <div>
+        <Route path="/" exact component={FirstPage} />
+        <Route path="/second" exact component={SecondPage} />
+        <Route path="/third" exact component={ThirdPage} />
+      </div>
+  );
 }
 
 export default App;
+ 
