@@ -3,9 +3,9 @@ const initState = {
 }
 
 //Define Actions
-const characterReducer = (state = initState, action) => {
+const pathTwoReducer = (state = initState, action) => {
     switch (action.type) {
-        case 'GET_FIRSTPAGE_DATA':
+        case 'GET_TWOPATH_DATA':
             return {
                 ...state,
                 ...action.payload
@@ -15,4 +15,4 @@ const characterReducer = (state = initState, action) => {
     }
 }
 
-export default characterReducer;
+export default pathTwoReducer;
